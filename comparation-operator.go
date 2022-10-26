@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 // operasi perbandingan
+
 func main() {
 
 	var name1 = "Ichiro"
@@ -14,9 +15,9 @@ func main() {
 	var value1 = 100
 	var value2 = 200
 
-	fmt.Println(value1 > value2)
-	fmt.Println(value1 < value2)
-	fmt.Println(value1 == value2)
-	fmt.Println(value1 != value2)
+	fmt.Println(value1 > value2)  // kurang dari
+	fmt.Println(value1 < value2)  // lebih dari
+	fmt.Println(value1 == value2) // sama dengan
+	fmt.Println(value1 != value2) // tidak sama dengan
 
 }
